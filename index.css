@@ -289,11 +289,38 @@
 
 
 
+/**fram part**/
+.btn{
+    width: 1440px;
+    height: 533px;
+    margin-top: 70px;
+    border: 1px solid blueviolet;
+    background-image: url("assets/news-letter-bg.png");
+}
 
 
+.bnt-tittle{
+    
+    text-align: center;
+    margin-top: 190px;
+    font-size: 30px;
+    color: #efeeee;
+}
 
-
-
+.text-ber{
+    height: 50px;
+    width: 644px;
+    border: 1px solid black;
+    
+    
+}
+.text-bnt{
+    height: 50px;
+    width: 186px;
+    border: 1px solid black;
+    background-color: orange;
+    color: #efeeee;
+}
 
 
 
