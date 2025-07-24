@@ -144,3 +144,74 @@
     }
     
 }
+/**challenge part style**/
+.chge-conteinar{
+    width: 1140px;
+    height: 521px;
+    display: flex;
+    justify-content: space-between;
+    /*padding-top: 120px;*/
+    margin-left: 150px;
+    border: ;
+}
+.chge-img{
+    width:590px;
+    height:520px;
+    border: ;
+}
+.chge-tittle{
+    width: 590px;
+    height: 521Hug;
+    padding-left: ;
+    border: ;
+    padding-top: 50px;
+}
+.tittle{
+    margin-top: 39px;
+    justify-items: center;
+}
+.h1{
+    margin-left: 60px;
+}
+.list{
+    width: 400px;
+    height: 108Hug;
+    border:;
+    margin-top: 80px;
+}
+.icon{
+    height: 286px;
+    width: 286px;
+    position: relative;
+    top: 130px;
+    margin-left: 425px;   
+
+}
+@media screen and (max-width:576px){
+    .chge-conteinar{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
