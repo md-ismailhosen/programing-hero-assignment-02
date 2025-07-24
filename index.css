@@ -321,7 +321,66 @@
     background-color: orange;
     color: #efeeee;
 }
+@media screen and (max-width:576px){
+    .bnt-tittle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 
+ /** icon conteiner style **/
+.font-colore{
+    color:rgba(0, 0, 0, 0.5)
+}
+.colore{
+    color: gray;
+}
+ 
+ .icon-conteinar{
+    width: 1440px;
+    height: 230px;
+    display: flex;
+    gap: 100px;
+    font-size: 30px;
+    border: ;
+ }
 
+ .last-logo{
+    width: 359Hug;
+    height: 179Hug;
+    padding: 30px;
+    padding-right: 30px;
+ }
 
+ .list-one{
+    width: 85Hug;
+    height: 248Hug;
+    list-style: none;
+    border: ;
+ }
+ .list-two{
+    width: 128Hug;
+    height: 248Hug;
+    
+ }
+ 
+ .plt-logo{
+    width: 216Hug;
+    height: 36Hug;
+     border: ;
+     position: relative;
+     bottom:160px;
+     left: 300px;
+ }
+ul{
+    list-style: none;
+}
 
+@media screen and (max-width:576px){
+    .icon-conteinar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
