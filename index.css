@@ -169,15 +169,18 @@
 .tittle{
     margin-top: 39px;
     justify-items: center;
+    
 }
 .h1{
     margin-left: 60px;
+    font-size: 30px;
+   
 }
 .list{
     width: 400px;
     height: 108Hug;
     border:;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .icon{
     height: 286px;
@@ -199,9 +202,89 @@
 }
 
 
+/**...........latesrt deals part style**/
+.flex-all-atem{
+    display: flex;
+}
+.Latest-tittle{
+    width: 1140px;
+    height: 250px;
+    justify-items: center;
+    margin-top: 400px;
+    margin-left: 150px;
+    font-size: 30px;
+    
 
+    
+}
 
+.fnt-style{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+  
+}
+.bloom-plant{
+    width: 367px;
+    height:206px;
+    
+    bottom: 40px;
+    background-image:url("assets/deal-bloom.png");
+    margin-top: 120px;
+    margin-left: 150px;
+    color:#efeeee;
+    border-radius:10px;
+    font-size: 30px;
+}
+.ana-plant{
+    width: 367px;
+    height: 197px;
+    margin-top: 25px;
+    margin-left: 150px;
+    color: white;
+    border-radius:10px;
+    font-size: 15px;
+    text-align: center;
+    background-image:url("assets/deal-ana.png") 
+    
+}
 
+.zabo-plant{
+    width: 753px;
+    height: 424.12px;
+    border: ;
+    justify-items:center;
+    border:;
+   /* background-image:url("assets/deal-zabo.png") ;*/
+    margin-top: 120px;
+    margin-left:28px ;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    border-radius:10px;
+    background-image:url("assets/deal-zabo.png") ;
+}
+
+@media screen and (max-width:576px) {
+    .flex-all-atem{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+   .Latest-tittle{
+    display:flex;
+    flex-direction: column;
+
+   }
+   .ld{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+   }
+}
 
 
 
